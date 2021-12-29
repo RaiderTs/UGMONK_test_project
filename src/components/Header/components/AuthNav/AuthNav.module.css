@@ -1,0 +1,18 @@
+.authNav__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.authNav__itemContainer {
+  display: flex;
+  margin-right: 30px;
+}
+
+.authNav__item:not(:last-child) {
+  margin-right: 13px;
+}
+
+.authNav__itemContainerLogin {
+  display: flex;
+  margin-right: 152px;
+}

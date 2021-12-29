@@ -1,0 +1,59 @@
+.salePage__section {
+  width: 1440px;
+  height: 406px;
+  padding: 127px 140px 127px 140px;
+  background: #ced3ca;
+  height: auto;
+  margin: auto;
+}
+
+.salePage__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.salePage__button {
+  color: #000;
+  border: none;
+  background: none;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: none;
+  width: 92px;
+  height: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 33px;
+}
+
+.salePage__button:hover,
+.salePage__button:focus {
+  background-color: inherit;
+  color: #1890ff;
+}
+
+.salePage__buttonText {
+  border-bottom: 1px solid currentColor;
+}
+
+.salePage__title {
+  height: 137px;
+  width: 211px;
+  font-size: 38px;
+  line-height: 46px;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.salePage__leftContainer {
+  width: 100%;
+  background: #f7f7f7;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding-left: 93px;
+}
+
+.salePage__leftContainerButton {
+  height: 100px;
+  align-items: baseline;
+}

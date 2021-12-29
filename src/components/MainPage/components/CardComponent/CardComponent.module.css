@@ -1,0 +1,58 @@
+.card {
+  padding: 0 140px 0 140px;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+.card__page {
+  display: flex;
+}
+
+.card__container {
+  width: calc((100% - 20px) / 3);
+  max-height: 438px;
+}
+
+.card__container:not(:last-child) {
+  margin-right: 20px;
+}
+
+.card__img {
+  width: 275px;
+  height: 341px;
+}
+
+.card__title {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.card__titleContainer {
+  margin-bottom: 0;
+  height: 18px;
+  margin-top: 11px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__titleClarification {
+  color: #a8a8a8;
+}
+
+.card__priceContainer {
+  margin-top: 7px;
+  display: flex;
+}
+
+.card__pricePromotional {
+  font-size: 13px;
+  line-height: 13px;
+  color: #ff3451;
+}
+
+.card__price {
+  font-size: 13px;
+  line-height: 13px;
+  color: #808080;
+}

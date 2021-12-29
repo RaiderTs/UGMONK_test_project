@@ -1,0 +1,12 @@
+.logo__nav {
+  padding-left: 75px;
+  padding-top: 32.34px;
+  padding-bottom: 42px;
+  display: flex;
+  align-items: center;
+}
+.logo__img {
+  width: 264, 52px;
+  height: 40, 66px;
+  display: inline-block;
+}

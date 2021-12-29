@@ -1,0 +1,27 @@
+.navBar {
+  width: 330px;
+  height: 54px;
+  background-color: red;
+}
+
+.navBar__list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.navBar__list > li {
+  list-style-type: none;
+  /* font-family: Roboto; */
+  font-size: 16px;
+  line-height: 20px;
+  padding-right: 32px;
+}
+
+.navBar__list > li:last-child {
+  padding-right: 0;
+}
+
+.navBar__container {
+  display: flex;
+}

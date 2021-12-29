@@ -1,0 +1,14 @@
+.topHeader {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  height: 45px;
+
+  background-color: #ced3ca;
+}
+
+.topHeader__text {
+  margin-right: 16px;
+  margin-top: 13px;
+  align-items: center;
+}

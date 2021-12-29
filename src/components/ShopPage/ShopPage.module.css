@@ -1,0 +1,56 @@
+.shopPage__button {
+  color: #000;
+  border: none;
+  background: none;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: none;
+  width: 92px;
+  height: 45px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopPage__button:hover,
+.shopPage__button:focus {
+  background-color: inherit;
+  color: #1890ff;
+}
+
+.shopPage__CardButtonText {
+  border-bottom: 1px solid currentColor;
+}
+
+.shopPage {
+  width: 1440px;
+  padding: 113px 140px 0 140px;
+  height: auto;
+  margin: auto;
+}
+
+.shopPage__cardsContainer {
+  display: flex;
+}
+
+.shopPage__title {
+  width: 630px;
+  height: 72px;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #1a1a1a;
+  margin: auto;
+  margin-bottom: 97px;
+}
+
+.shopPage__card {
+  width: calc((100% - 116px));
+}
+
+.shopPage__card:not(:last-child) {
+  margin-right: 116px;
+}
+
+.shopPage__cardContainerBottom {
+  padding-top: 48px;
+  padding-bottom: 93px;
+}

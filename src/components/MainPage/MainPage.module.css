@@ -1,0 +1,26 @@
+.mainPage {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin: auto;
+}
+
+.mainPage__button {
+  height: 56px;
+  width: 302px;
+  padding: 0;
+  background: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+
+.mainPage__container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 65px;
+  padding-bottom: 172px;
+}

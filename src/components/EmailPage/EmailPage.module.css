@@ -1,0 +1,55 @@
+.emailPage {
+  max-width: 1440px;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+.emailPage__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 443px;
+  width: 100%;
+  background: #ced3ca;
+}
+
+.emailPage__title {
+  font-size: 34px;
+  line-height: 41px;
+  color: #1a1a1a;
+  margin-bottom: 19px;
+}
+
+.emailPage__text {
+  width: 373px;
+  height: 68px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1a1a1a;
+  margin-bottom: 56px;
+}
+
+.emailPage__containerInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailPage__button {
+  height: 48px;
+  width: 66px;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-left: none;
+  padding: 0;
+}
+
+.emailPage__input {
+  height: 48px;
+  width: 338px;
+  border: 1px solid #000;
+  padding-left: 18px;
+  color: rgba(26, 26, 26, 0.5);
+}
