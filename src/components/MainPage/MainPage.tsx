@@ -1,3 +1,5 @@
+import React from 'react';
+
 import 'antd/dist/antd.css';
 import { Button } from 'antd';
 
@@ -7,7 +9,7 @@ import { Tabs } from 'antd';
 import styles from './MainPage.module.css';
 import '../../css/variablesAnt.css';
 
-const MainPage = () => {
+const MainPage: React.FC = () => {
   const { TabPane } = Tabs;
   return (
     <section>
@@ -17,7 +19,7 @@ const MainPage = () => {
           tabBarStyle={{ margin: 'auto', marginBottom: '49px' }}
         >
           <TabPane tab="New Arrivals" key="1">
-            <h1>New Arrivals</h1>
+            {/* <h1>New Arrivals</h1> */}
             <CardComponent />
           </TabPane>
           <TabPane tab="Final Stock" key="2">

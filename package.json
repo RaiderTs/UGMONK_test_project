@@ -54,6 +54,7 @@
     ]
   },
   "devDependencies": {
-    "css-loader": "^6.5.1"
+    "css-loader": "^6.5.1",
+    "redux-devtools-extension": "^2.13.9"
   }
 }

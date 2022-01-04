@@ -33,3 +33,15 @@
 .ant-tabs-nav-list {
   border-bottom: 1px solid white !important;
 }
+
+/* Modal */
+
+.ant-modal-content {
+  min-width: 1000px;
+  min-height: 700px;
+  width: 100%;
+}
+
+.ant-modal-wrap {
+  left: -22%;
+}

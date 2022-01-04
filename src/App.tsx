@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'antd/dist/antd.css';
 
 import Header from './components/Header';
@@ -14,19 +15,21 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <Hero />
-        <MainPage />
-        <SalePage />
-        <ShopPage />
-        <GatherPage />
-        <AboutPage />
-        <EmailPage />
+    <Router>
+      <div className="App">
+        <Header />
+        <main>
+          <Hero />
+          <MainPage />
+          <SalePage />
+          <ShopPage />
+          <GatherPage />
+          <AboutPage />
+          <EmailPage />
+        </main>
         <Footer />
-      </main>
-    </div>
+      </div>
+    </Router>
   );
 }
 
